@@ -90,12 +90,14 @@ body {
   line-height: 20px;
 }
 
-@media (max-width: 432px) {
+@media (max-width: 500px) {
   .sectionCard {
     display: flex;
     flex-direction: column;
     top: 10%;
+    height: 80%;
   }
+  
   .section {
     top: 12%;
     left: 12%;
