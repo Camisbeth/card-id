@@ -90,6 +90,39 @@ body {
   line-height: 20px;
 }
 
+@media (max-width: 1024px) {
+  .sectionCard {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionCard {
+    width: 90%;
+    height: 85%;
+    top: 10%;
+  }
+
+  .section {
+    width: 60%;
+    left: 15%;
+  }
+
+  .subjet {
+    width: 20%;
+    height: 40%;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.875rem;
+  }
+}
+
 @media (max-width: 500px) {
   .sectionCard {
     display: flex;
@@ -97,7 +130,7 @@ body {
     top: 10%;
     height: 80%;
   }
-  
+
   .section {
     top: 12%;
     left: 12%;
