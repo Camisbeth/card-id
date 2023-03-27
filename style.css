@@ -128,7 +128,6 @@ body {
     display: flex;
     flex-direction: column;
     top: 10%;
-    height: 80%;
   }
 
   .section {
@@ -157,17 +156,7 @@ body {
   }
 }
 
-@media (max-width: 425px) {
-  .sectionCard {
-    height: 82%;
-  }
-}
-
 @media (max-width: 375px) {
-  .sectionCard {
-    height: 85%;
-  }
-
   .section {
     top: 15%;
   }
